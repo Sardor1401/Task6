@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <body>
+        <canvas width="600" height="400"></canvas>
+        <div class="controls">
+          <ul>
+            <li class="red selected"></li>
+            <li class="blue"></li>
+            <li class="yellow"></li>
+          </ul>
+          <button id="revealColorSelect">New color assignment</button>
+          <div id="colorSelect">
+            <span id="newColor"></span>
+            <div class="sliders">
+              <p>
+                <label for="red">Red</label>
+                <input id="red" name="red" type="range" min=0 max=255 value=0>
+              </p>
+              <p>
+                <label for="green">green</label>
+                <input id="green" name="green" type="range" min=0 max=255 value=0>
+              </p>
+              <p>
+                <label for="blue">blue</label>
+                <input id="blue" name="blue" type="range" min=0 max=255 value=0>
+              </p>
+            </div>
+            <div>
+              <button id="addNewColor">Add color</button>
+            </div>
+          </div>
+        </div>
+      
+      
+      </body>
+    
+
+
+      <script src="main.js"></script>
+</body>
+</html>
